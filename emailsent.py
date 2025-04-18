@@ -19,9 +19,10 @@ msg['To'] = to_email_addr
 
 
 
-server = smtplib.SMTP('smtp.qq.com',465)  
+server = smtplib.SMTP('smtp.qq.com',587)  
 server.starttls()  
-server.login(from_email_addr, from_email_passserver.send_message(msg) )
-print("")
+server.login(from_email_addr, from_email_pass)
+server.send_message(msg)
+print("Email sent")
 
 server.quit()
