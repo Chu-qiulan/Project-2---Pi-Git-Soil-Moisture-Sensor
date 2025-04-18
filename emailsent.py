@@ -2,13 +2,13 @@ import smtplib
 from email.message import EmailMessage
 
 
-from_email_addr = "20114335@mail.wit.ie"
+from_email_addr = "1606464637@qq.com"
 
 
-from_email_pass = "114514"
+from_email_pass = "bmynktgflzwjbade"
 
 
-to_email_addr = "1606464637@qq.com"
+to_email_addr = "20114335@mail.wit.ie"
 
 
 msg = EmailMessage()
@@ -19,7 +19,7 @@ msg['To'] = to_email_addr
 
 
 
-server = smtplib.SMTP('smtp.office365.com', 587)  
+server = smtplib.SMTP('smtp.qq.com',465)  
 server.starttls()  
 server.login(from_email_addr, from_email_passserver.send_message(msg) )
 print("")
