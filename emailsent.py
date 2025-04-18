@@ -8,7 +8,7 @@ from_email_addr = "1606464637@qq.com"
 from_email_pass = "bmynktgflzwjbade"
 
 
-to_email_addr = "20114335@mail.wit.ie"
+to_email_addr = "3188213735@qq.com"
 
 
 msg = EmailMessage()
