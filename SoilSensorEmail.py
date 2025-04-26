@@ -4,9 +4,9 @@ import smtplib
 from email.message import EmailMessage
 
 
-from_email_addr = "20114335@mail.wit.ie"          
-from_email_pass = "1bmynktgflzwjbade"                         
-to_email_addr = "20114335@mail.wit.ie"                
+from_email_addr = "1606464637@qq.come"          
+from_email_pass = "bmynktgflzwjbade"                         
+to_email_addr = "3188213735@qq.com"                
 
 
 def send_email(subject, body):
